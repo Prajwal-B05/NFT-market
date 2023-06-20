@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="shortcut icon" href="img/favicon.svg" type="image/svg+xml">
+  <title>Fast NFTs</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body bgcolor="#211f1f">
+  <h1>NFT Marketplace</h1>
+  <div class="grid">
+  <div class="card">
+    <div class="card2">
+      <img src="img/nft4.jpg" class="card2">
+      <div class="text">
+      <h3>Bored Ape 1</h3>
+      <p>Artist: Sathoshi Nakamoto</p>
+      <p>Price: 1.2 ETH</p>
+      </div>
+      <button class="buy-button" onclick="addToCart('Bored Ape 1')">Buy</button>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card2">  
+    <img src="img/nft1.jpg" class="card2">
+    <div class="text">
+      <h3>Bored Ape 2</h3>
+      <p>Artist: Gavin Wood</p>
+      <p>Price: 0.8 ETH</p>
+    </div>
+    <button class="buy-button" onclick="addToCart('Bored Ape 2')">Buy</button>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card2">
+      <img src="img/nft3.jpg" class="card2">
+    <div class="text"
+      <h3>Bored Ape 3</h3>
+      <p>Artist: Vitalik</p>
+      <p>Price: 2.2 ETH</p>
+      </div>
+     <button class="buy-button" onclick="addToCart('Bored Ape 3')">Buy</button>
+    </div>
+  </div>
+  
+</div>
+  <div id="cart">
+    <h1>Shopping Cart</h1>
+    <ul id="cart-items"></ul>
+    <button class="buy-button" onclick="pay()">Pay</button>
+  </div>
+
+
+  <script src="app.js"></script>
+</body>
+</html>
